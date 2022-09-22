@@ -37,6 +37,16 @@ nav ul li a,
   margin-right: 18%;
   
 }
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container img{
+  margin: 1rem 1rem 1rem 0;
+}
 .logo {
   margin-left: 20rem;
  
@@ -138,28 +148,19 @@ nav ul li a,
   letter-spacing: 0.5rem;
   display: inline-block;
   margin-bottom: 1.5%;
-  margin-left: 11.3%;
+  margin-left: 13%;
 }
 
 .btn2 {
   visibility: hidden;
 }
 
-.cont4,
-.cont5 {
-  margin-left: 15%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-}
 
 .text1,
 .text2,
 .text3,
 .text4 {
-  top: 40%;
+  top: 42%;
   right: 0;
 }
 
@@ -173,27 +174,25 @@ nav ul li a,
 
 .text1,
 .text5 {
-  left: 19%;
+  left: 21%;
 }
 
 .text2,
 .text6 {
-  left: 33%;
+  left: 35%;
 }
 
 .text3,
 .text7 {
-  left: 48%;
+  left: 50%;
 }
 
 .text4,
 .text8 {
-  left: 62%;
+  left: 64%;
 }
 
-.cont5 {
-  margin-top: 2%;
-}
+
 
 .footer-basic {
   margin-top: 10%;
@@ -318,22 +317,14 @@ nav ul li a,
   }
 
   .cont3 button {
-    margin-left: 30%;
+    margin-left: 48%;
   }
 
   .cont3 h1 {
     margin-left: 6%;
   }
 
-  .cont4,
-  .cont5 {
-    margin-left: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
+
   .img1,
   .img2,
   .img3,
@@ -370,37 +361,37 @@ nav ul li a,
     font-family: "Josefin Sans", sans-serif;
   }
   .text1 {
-    top: 20%;
-    left: 15%;
+    top: 40%;
+    left: 8%;
   }
 
   .text2 {
-    top: 20%;
-    left: 47%;
+    top: 40%;
+    left: 28%;
   }
   .text3 {
-    top: 43%;
-    left: 15%;
+    top: 40%;
+    left: 49%;
   }
   .text4 {
-    top: 43%;
-    left: 47%;
+    top: 40%;
+    left: 70%;
   }
   .text5 {
-    top: 68%;
-    left: 15%;
+    top: 85%;
+    left: 8%;
   }
   .text6 {
-    top: 68%;
-    left: 47%;
+    top: 85%;
+    left: 28%;
   }
   .text7 {
-    top: 91%;
-    left: 15%;
+    top: 85%;
+    left: 49%;
   }
   .text8 {
-    top: 91%;
-    left: 47%;
+    top: 85%;
+    left: 70%;
   }
 
   .footer1 {
@@ -433,8 +424,115 @@ nav ul li a,
     margin-bottom: 5%;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .text1,.text5 {
+    left: 4%;
+  }
 
+  .text2,.text6 {
+    left: 27%;
+  }
+  .text3,.text7 {
+    left: 49%;
+  }
+  .text4,.text8 {
+    left: 72%;
+  }
+  .cont3 h1 {
+    margin-left: 4%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .text1 {
+    top: 28%;
+    left: 9%;
+  }
+
+  .text2 {
+    top: 28%;
+    left: 33%;
+  }
+  .text3 {
+    top: 28%;
+    left: 58%;
+  }
+  .text4 {
+    top: 59%;
+    left: 9%;
+  }
+  .text5 {
+    top: 59%;
+    left: 33%;
+  }
+  .text6 {
+    top: 59%;
+    left: 58%;
+  }
+  .text7 {
+    top: 90%;
+    left: 9%;
+  }
+  .text8 {
+    top: 90%;
+    left: 33%;
+  }
+}
+@media only screen and (max-width: 900px) {
+    html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .text1 {
+    top: 23%;
+    left: 24%;
+  }
+
+  .text2 {
+    top: 23%;
+    left: 54%;
+  }
+  .text3 {
+    top: 46%;
+    left: 24%;
+  }
+  .text4 {
+    top: 46%;
+    left: 54%;
+  }
+  .text5 {
+    top: 69%;
+    left: 24%;
+  }
+  .text6 {
+    top: 69%;
+    left: 54%;
+  }
+  .text7 {
+    top: 92%;
+    left: 24%;
+  }
+  .text8 {
+    top: 92%;
+    left: 54%;
+  }
+  .section3 .container{
+    margin-left: 20%;
+  }
+  .cont3 button {
+    margin-left: 27%;
+  }
+
+  .cont3 h1 {
+    margin-left: 8%;
+  }
+}
 @media only screen and (max-width: 600px) {
+    html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
   header {
     background-image: url(images/mobile/image-hero.jpg);
     height: 70vh;
@@ -488,19 +586,15 @@ nav ul li a,
   }
 
   .cont3 button {
-    margin-left: 10%;
+    margin-left: 2%;
   }
 
   .cont3 h1 {
-    margin-left: 5%;
+    margin-left: 16%;
   }
 
   .btn2 {
     visibility: visible;
-  }
-  .cont4,
-  .cont5 {
-    justify-content: center;
   }
   .img1 {
     content: url("images/mobile/image-deep-earth.jpg");
@@ -544,59 +638,59 @@ nav ul li a,
 
     margin-bottom: 3%;
   }
-  .cont5 {
-    margin-top: 0%;
+  .box .container{
+    margin-left: 0;
   }
 
   .text1 {
-    top: 11%;
-    left: 13%;
+    top: 9%;
+    left: 11%;
     right: 100%;
     font-size: 3rem;
   }
   .text2 {
-    top: 22%;
-    left: 13%;
+    top: 21%;
+    left: 11%;
     right: 100%;
     font-size: 3rem;
   }
   .text3 {
-    top: 32%;
-    left: 13%;
+    top: 31%;
+    left: 11%;
     right: 100%;
     font-size: 3rem;
   }
   .text4 {
     top: 45%;
-    left: 13%;
+    left: 11%;
     right: 100%;
     font-size: 3rem;
   }
 
   .text5 {
-    top: 51%;
-    left: 13%;
+    top: 53%;
+    left: 11%;
     right: 100%;
     font-size: 3rem;
   }
 
   .text6 {
     top: 68%;
-    left: 13%;
+    left: 11%;
     right: 100%;
     font-size: 3rem;
   }
 
   .text7 {
-    top: 79%;
-    left: 13%;
+    top: 80%;
+    left: 11%;
     right: 100%;
     font-size: 3rem;
   }
 
   .text8 {
-    top: 88%;
-    left: 13%;
+    top: 90%;
+    left: 11%;
     right: 100%;
     font-size: 3rem;
   }
@@ -628,5 +722,102 @@ nav ul li a,
 
   .copyright {
     margin-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 500px) {
+    html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .cont3 h1 {
+    margin-left: 10%;
+  }
+  .text5{
+    top:52%;
+  }
+  .text7 {
+    top: 79%;
+  }
+
+  .text8 {
+    top: 89%;
+  }
+}
+@media only screen and (max-width: 400px) {
+    html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .cont3 h1 {
+    margin-left: 2%;
+    margin-top: 16%;
+    margin-bottom: 0%;
+  }
+  .text1 {
+    top: 13%;
+  }
+  .text2 {
+    top: 24%;
+  }
+  .text3 {
+    top: 33%;
+  }
+  .text4 {
+    top: 46%;
+  }
+  .text5{
+    top:53%;
+  }
+  .text6 {
+    top: 68%;
+  }
+  .text7 {
+    top: 79%;
+  }
+
+  .text8 {
+    top: 88%;
+  }
+}
+@media only screen and (max-width: 375px) {
+    html,
+  body {
+    width: auto !important;
+    overflow-x: hidden !important;
+  }
+  .cont1 h1 {
+  letter-spacing: 0.8rem;
+}
+  .cont3 h1 {
+    margin-left: 2%;
+    margin-top: 24%;
+    margin-bottom: 0%;
+  }
+  .text1 {
+    top: 14%;
+  }
+  .text2 {
+    top: 25%;
+  }
+  .text3 {
+    top: 34%;
+  }
+  .text4 {
+    top: 47%;
+  }
+  .text5{
+    top:53.5%;
+  }
+  .text6 {
+    top: 68%;
+  }
+  .text7 {
+    top: 79%;
+  }
+
+  .text8 {
+    top: 87%;
   }
 }
